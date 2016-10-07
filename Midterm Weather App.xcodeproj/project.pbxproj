@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849A4D361DA759D40071A42B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A4D351DA759D40071A42B /* AppDelegate.swift */; };
+		849A4D381DA759D40071A42B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A4D371DA759D40071A42B /* ViewController.swift */; };
+		849A4D3B1DA759D40071A42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A4D391DA759D40071A42B /* Main.storyboard */; };
+		849A4D3D1DA759D40071A42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849A4D3C1DA759D40071A42B /* Assets.xcassets */; };
+		849A4D401DA759D40071A42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A4D3E1DA759D40071A42B /* LaunchScreen.storyboard */; };
+		849A4D4B1DA759D40071A42B /* Midterm_Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A4D4A1DA759D40071A42B /* Midterm_Weather_AppTests.swift */; };
+		849A4D561DA759D40071A42B /* Midterm_Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A4D551DA759D40071A42B /* Midterm_Weather_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849A4D471DA759D40071A42B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849A4D2A1DA759D40071A42B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849A4D311DA759D40071A42B;
+			remoteInfo = "Midterm Weather App";
+		};
+		849A4D521DA759D40071A42B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849A4D2A1DA759D40071A42B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849A4D311DA759D40071A42B;
+			remoteInfo = "Midterm Weather App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849A4D321DA759D40071A42B /* Midterm Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849A4D351DA759D40071A42B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849A4D371DA759D40071A42B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		849A4D3A1DA759D40071A42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849A4D3C1DA759D40071A42B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849A4D3F1DA759D40071A42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849A4D411DA759D40071A42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849A4D461DA759D40071A42B /* Midterm Weather AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm Weather AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849A4D4A1DA759D40071A42B /* Midterm_Weather_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midterm_Weather_AppTests.swift; sourceTree = "<group>"; };
+		849A4D4C1DA759D40071A42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849A4D511DA759D40071A42B /* Midterm Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849A4D551DA759D40071A42B /* Midterm_Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midterm_Weather_AppUITests.swift; sourceTree = "<group>"; };
+		849A4D571DA759D40071A42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849A4D2F1DA759D40071A42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A4D431DA759D40071A42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A4D4E1DA759D40071A42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849A4D291DA759D40071A42B = {
+			isa = PBXGroup;
+			children = (
+				849A4D341DA759D40071A42B /* Midterm Weather App */,
+				849A4D491DA759D40071A42B /* Midterm Weather AppTests */,
+				849A4D541DA759D40071A42B /* Midterm Weather AppUITests */,
+				849A4D331DA759D40071A42B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849A4D331DA759D40071A42B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849A4D321DA759D40071A42B /* Midterm Weather App.app */,
+				849A4D461DA759D40071A42B /* Midterm Weather AppTests.xctest */,
+				849A4D511DA759D40071A42B /* Midterm Weather AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849A4D341DA759D40071A42B /* Midterm Weather App */ = {
+			isa = PBXGroup;
+			children = (
+				849A4D351DA759D40071A42B /* AppDelegate.swift */,
+				849A4D371DA759D40071A42B /* ViewController.swift */,
+				849A4D391DA759D40071A42B /* Main.storyboard */,
+				849A4D3C1DA759D40071A42B /* Assets.xcassets */,
+				849A4D3E1DA759D40071A42B /* LaunchScreen.storyboard */,
+				849A4D411DA759D40071A42B /* Info.plist */,
+			);
+			path = "Midterm Weather App";
+			sourceTree = "<group>";
+		};
+		849A4D491DA759D40071A42B /* Midterm Weather AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				849A4D4A1DA759D40071A42B /* Midterm_Weather_AppTests.swift */,
+				849A4D4C1DA759D40071A42B /* Info.plist */,
+			);
+			path = "Midterm Weather AppTests";
+			sourceTree = "<group>";
+		};
+		849A4D541DA759D40071A42B /* Midterm Weather AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				849A4D551DA759D40071A42B /* Midterm_Weather_AppUITests.swift */,
+				849A4D571DA759D40071A42B /* Info.plist */,
+			);
+			path = "Midterm Weather AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849A4D311DA759D40071A42B /* Midterm Weather App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849A4D5A1DA759D40071A42B /* Build configuration list for PBXNativeTarget "Midterm Weather App" */;
+			buildPhases = (
+				849A4D2E1DA759D40071A42B /* Sources */,
+				849A4D2F1DA759D40071A42B /* Frameworks */,
+				849A4D301DA759D40071A42B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Midterm Weather App";
+			productName = "Midterm Weather App";
+			productReference = 849A4D321DA759D40071A42B /* Midterm Weather App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849A4D451DA759D40071A42B /* Midterm Weather AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849A4D5D1DA759D40071A42B /* Build configuration list for PBXNativeTarget "Midterm Weather AppTests" */;
+			buildPhases = (
+				849A4D421DA759D40071A42B /* Sources */,
+				849A4D431DA759D40071A42B /* Frameworks */,
+				849A4D441DA759D40071A42B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849A4D481DA759D40071A42B /* PBXTargetDependency */,
+			);
+			name = "Midterm Weather AppTests";
+			productName = "Midterm Weather AppTests";
+			productReference = 849A4D461DA759D40071A42B /* Midterm Weather AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849A4D501DA759D40071A42B /* Midterm Weather AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849A4D601DA759D40071A42B /* Build configuration list for PBXNativeTarget "Midterm Weather AppUITests" */;
+			buildPhases = (
+				849A4D4D1DA759D40071A42B /* Sources */,
+				849A4D4E1DA759D40071A42B /* Frameworks */,
+				849A4D4F1DA759D40071A42B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849A4D531DA759D40071A42B /* PBXTargetDependency */,
+			);
+			name = "Midterm Weather AppUITests";
+			productName = "Midterm Weather AppUITests";
+			productReference = 849A4D511DA759D40071A42B /* Midterm Weather AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849A4D2A1DA759D40071A42B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Braydon Fox";
+				TargetAttributes = {
+					849A4D311DA759D40071A42B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					849A4D451DA759D40071A42B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849A4D311DA759D40071A42B;
+					};
+					849A4D501DA759D40071A42B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849A4D311DA759D40071A42B;
+					};
+				};
+			};
+			buildConfigurationList = 849A4D2D1DA759D40071A42B /* Build configuration list for PBXProject "Midterm Weather App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849A4D291DA759D40071A42B;
+			productRefGroup = 849A4D331DA759D40071A42B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849A4D311DA759D40071A42B /* Midterm Weather App */,
+				849A4D451DA759D40071A42B /* Midterm Weather AppTests */,
+				849A4D501DA759D40071A42B /* Midterm Weather AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849A4D301DA759D40071A42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A4D401DA759D40071A42B /* LaunchScreen.storyboard in Resources */,
+				849A4D3D1DA759D40071A42B /* Assets.xcassets in Resources */,
+				849A4D3B1DA759D40071A42B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A4D441DA759D40071A42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A4D4F1DA759D40071A42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849A4D2E1DA759D40071A42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A4D381DA759D40071A42B /* ViewController.swift in Sources */,
+				849A4D361DA759D40071A42B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A4D421DA759D40071A42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A4D4B1DA759D40071A42B /* Midterm_Weather_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A4D4D1DA759D40071A42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A4D561DA759D40071A42B /* Midterm_Weather_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849A4D481DA759D40071A42B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849A4D311DA759D40071A42B /* Midterm Weather App */;
+			targetProxy = 849A4D471DA759D40071A42B /* PBXContainerItemProxy */;
+		};
+		849A4D531DA759D40071A42B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849A4D311DA759D40071A42B /* Midterm Weather App */;
+			targetProxy = 849A4D521DA759D40071A42B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849A4D391DA759D40071A42B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849A4D3A1DA759D40071A42B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849A4D3E1DA759D40071A42B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849A4D3F1DA759D40071A42B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849A4D581DA759D40071A42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849A4D591DA759D40071A42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849A4D5B1DA759D40071A42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Midterm Weather App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Midterm-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		849A4D5C1DA759D40071A42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Midterm Weather App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Midterm-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		849A4D5E1DA759D40071A42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Midterm Weather AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Midterm-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Midterm Weather App.app/Midterm Weather App";
+			};
+			name = Debug;
+		};
+		849A4D5F1DA759D40071A42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Midterm Weather AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Midterm-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Midterm Weather App.app/Midterm Weather App";
+			};
+			name = Release;
+		};
+		849A4D611DA759D40071A42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Midterm Weather AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Midterm-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Midterm Weather App";
+			};
+			name = Debug;
+		};
+		849A4D621DA759D40071A42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Midterm Weather AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Midterm-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Midterm Weather App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849A4D2D1DA759D40071A42B /* Build configuration list for PBXProject "Midterm Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A4D581DA759D40071A42B /* Debug */,
+				849A4D591DA759D40071A42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849A4D5A1DA759D40071A42B /* Build configuration list for PBXNativeTarget "Midterm Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A4D5B1DA759D40071A42B /* Debug */,
+				849A4D5C1DA759D40071A42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849A4D5D1DA759D40071A42B /* Build configuration list for PBXNativeTarget "Midterm Weather AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A4D5E1DA759D40071A42B /* Debug */,
+				849A4D5F1DA759D40071A42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849A4D601DA759D40071A42B /* Build configuration list for PBXNativeTarget "Midterm Weather AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A4D611DA759D40071A42B /* Debug */,
+				849A4D621DA759D40071A42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849A4D2A1DA759D40071A42B /* Project object */;
+}
