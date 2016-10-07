@@ -48,7 +48,7 @@
 		849A4D511DA759D40071A42B /* Midterm Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849A4D551DA759D40071A42B /* Midterm_Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midterm_Weather_AppUITests.swift; sourceTree = "<group>"; };
 		849A4D571DA759D40071A42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		849A4D651DA82F420071A42B /* AlertsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertsTableViewController.swift; path = ../AlertsTableViewController.swift; sourceTree = "<group>"; };
+		849A4D651DA82F420071A42B /* AlertsTableViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = AlertsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
