@@ -13,6 +13,7 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
     // MARK: Properties
     var stateName = String()
     var stateAbbreviation = String()
+    
     var alertsURLString = String()
     var foundEntry:Bool = false
     var foundId:Bool = false
@@ -20,6 +21,12 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
     var foundEffective:Bool = false
     var foundExpires:Bool = false
     var foundSeverity:Bool = false
+    
+    var idsArray:[String] = []
+    var eventsArray:[String] = []
+    var effectivesArray:[String] = []
+    var expiresArray:[String] = []
+    var severitiesArray:[String] = []
 
     // MARK: Life Cycle
     override func viewDidLoad() {
@@ -36,13 +43,14 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
         super.didReceiveMemoryWarning()
     }
 
-    // MARK: Table view data source
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 0
-    }
-
+    // MARK: Table View Delegate and Data Source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return self.eventsArray.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "cell")
+        return cell
     }
     
     // MARK: XML Parsing
@@ -86,7 +94,19 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
     
     func parser(_ parser: XMLParser, foundCharacters string: String) {
         if (foundEntry && foundId) {
-            
+            idsArray.append(string)
+        }
+        if (foundEntry && foundEvent) {
+            eventsArray.append(string)
+        }
+        if (foundEntry && foundEffective) {
+            effectivesArray.append(string)
+        }
+        if (foundEntry && foundExpires) {
+            expiresArray.append(string)
+        }
+        if (foundEntry && foundSeverity) {
+            severitiesArray.append(string)
         }
     }
     
