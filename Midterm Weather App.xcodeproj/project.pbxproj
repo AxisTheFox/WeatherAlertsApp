@@ -14,6 +14,7 @@
 		849A4D401DA759D40071A42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A4D3E1DA759D40071A42B /* LaunchScreen.storyboard */; };
 		849A4D4B1DA759D40071A42B /* Midterm_Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A4D4A1DA759D40071A42B /* Midterm_Weather_AppTests.swift */; };
 		849A4D561DA759D40071A42B /* Midterm_Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A4D551DA759D40071A42B /* Midterm_Weather_AppUITests.swift */; };
+		849A4D661DA82F420071A42B /* AlertsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A4D651DA82F420071A42B /* AlertsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		849A4D511DA759D40071A42B /* Midterm Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849A4D551DA759D40071A42B /* Midterm_Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midterm_Weather_AppUITests.swift; sourceTree = "<group>"; };
 		849A4D571DA759D40071A42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849A4D651DA82F420071A42B /* AlertsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertsTableViewController.swift; path = ../AlertsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		849A4D341DA759D40071A42B /* Midterm Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				849A4D651DA82F420071A42B /* AlertsTableViewController.swift */,
 				849A4D351DA759D40071A42B /* AppDelegate.swift */,
 				849A4D371DA759D40071A42B /* ViewController.swift */,
 				849A4D391DA759D40071A42B /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				849A4D381DA759D40071A42B /* ViewController.swift in Sources */,
 				849A4D361DA759D40071A42B /* AppDelegate.swift in Sources */,
+				849A4D661DA82F420071A42B /* AlertsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
