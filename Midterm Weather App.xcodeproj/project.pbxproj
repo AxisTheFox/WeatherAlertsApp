@@ -507,6 +507,7 @@
 				849A4D5C1DA759D40071A42B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849A4D5D1DA759D40071A42B /* Build configuration list for PBXNativeTarget "Midterm Weather AppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				849A4D5F1DA759D40071A42B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849A4D601DA759D40071A42B /* Build configuration list for PBXNativeTarget "Midterm Weather AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				849A4D621DA759D40071A42B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
