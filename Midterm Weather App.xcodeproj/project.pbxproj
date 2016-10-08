@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846F558D1DA869A6000B78B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 846F558C1DA869A6000B78B3 /* Default-568h@2x.png */; };
+		846F558F1DA87EEB000B78B3 /* AlertDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F558E1DA87EEB000B78B3 /* AlertDetailsViewController.swift */; };
 		849A4D361DA759D40071A42B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A4D351DA759D40071A42B /* AppDelegate.swift */; };
 		849A4D381DA759D40071A42B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A4D371DA759D40071A42B /* ViewController.swift */; };
 		849A4D3B1DA759D40071A42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A4D391DA759D40071A42B /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846F558C1DA869A6000B78B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		846F558E1DA87EEB000B78B3 /* AlertDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDetailsViewController.swift; sourceTree = "<group>"; };
 		849A4D321DA759D40071A42B /* Midterm Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849A4D351DA759D40071A42B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849A4D371DA759D40071A42B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		849A4D291DA759D40071A42B = {
 			isa = PBXGroup;
 			children = (
+				846F558C1DA869A6000B78B3 /* Default-568h@2x.png */,
 				849A4D341DA759D40071A42B /* Midterm Weather App */,
 				849A4D491DA759D40071A42B /* Midterm Weather AppTests */,
 				849A4D541DA759D40071A42B /* Midterm Weather AppUITests */,
@@ -99,6 +104,7 @@
 		849A4D341DA759D40071A42B /* Midterm Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				846F558E1DA87EEB000B78B3 /* AlertDetailsViewController.swift */,
 				849A4D651DA82F420071A42B /* AlertsTableViewController.swift */,
 				849A4D351DA759D40071A42B /* AppDelegate.swift */,
 				849A4D371DA759D40071A42B /* ViewController.swift */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849A4D401DA759D40071A42B /* LaunchScreen.storyboard in Resources */,
+				846F558D1DA869A6000B78B3 /* Default-568h@2x.png in Resources */,
 				849A4D3D1DA759D40071A42B /* Assets.xcassets in Resources */,
 				849A4D3B1DA759D40071A42B /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846F558F1DA87EEB000B78B3 /* AlertDetailsViewController.swift in Sources */,
 				849A4D381DA759D40071A42B /* ViewController.swift in Sources */,
 				849A4D361DA759D40071A42B /* AppDelegate.swift in Sources */,
 				849A4D661DA82F420071A42B /* AlertsTableViewController.swift in Sources */,

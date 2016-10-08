@@ -15,17 +15,22 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
     var stateAbbreviation = String()
     
     var alertsURLString = String()
+    
     var foundEntry:Bool = false
     var foundId:Bool = false
+    var foundSummary:Bool = false
     var foundEvent:Bool = false
     var foundEffective:Bool = false
     var foundExpires:Bool = false
+    var foundCertainty:Bool = false
     var foundSeverity:Bool = false
     
     var idsArray:[String] = []
+    var summariesArray:[String] = []
     var eventsArray:[String] = []
     var effectivesArray:[String] = []
     var expiresArray:[String] = []
+    var certaintyArray:[String] = []
     var severitiesArray:[String] = []
 
     // MARK: Life Cycle
@@ -37,7 +42,6 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
         let xmlParser = XMLParser(contentsOf: alertsURL!)
         xmlParser?.delegate = self
         xmlParser?.parse()
-        print(eventsArray)
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,6 +57,7 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
         let cell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "cell")
         cell.textLabel?.text = eventsArray[(indexPath as NSIndexPath).row]
         cell.detailTextLabel?.textColor = UIColor.darkGray
+        cell.detailTextLabel?.text = "Expires: " + expiresArray[(indexPath as NSIndexPath).row]
         if (severitiesArray[(indexPath as NSIndexPath).row] == "Extreme") {
             cell.backgroundColor = UIColor.red
         } else if (severitiesArray[(indexPath as NSIndexPath).row] == "Severe") {
@@ -64,7 +69,7 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "alertDetailsSegue", sender: indexPath)
+        self.performSegue(withIdentifier: "showAlertDetails", sender: indexPath)
     }
     
     // MARK: XML Parsing
@@ -75,6 +80,9 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
         if (elementName == "id") {
             foundId = true
         }
+        if (elementName == "summary") {
+            foundSummary = true
+        }
         if (elementName == "cap:event") {
             foundEvent = true
         }
@@ -83,6 +91,9 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
         }
         if (elementName == "cap:expires") {
             foundExpires = true
+        }
+        if (elementName == "cap:certainty") {
+            foundCertainty = true
         }
         if (elementName == "cap:severity") {
             foundSeverity = true
@@ -97,6 +108,9 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
         if (elementName == "id") {
             foundId = false
         }
+        if (elementName == "summary") {
+            foundSummary = false
+        }
         if (elementName == "cap:event") {
             foundEvent = false
         }
@@ -105,6 +119,9 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
         }
         if (elementName == "cap:expires") {
             foundExpires = false
+        }
+        if (elementName == "cap:certainty") {
+            foundCertainty = false
         }
         if (elementName == "cap:severity") {
             foundSeverity = false
@@ -115,6 +132,9 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
         if (foundEntry && foundId) {
             idsArray.append(string)
         }
+        if (foundEntry && foundSummary) {
+            summariesArray.append(string)
+        }
         if (foundEntry && foundEvent) {
             eventsArray.append(string)
         }
@@ -124,9 +144,27 @@ class AlertsTableViewController: UITableViewController, XMLParserDelegate {
         if (foundEntry && foundExpires) {
             expiresArray.append(string)
         }
+        if (foundEntry && foundCertainty) {
+            certaintyArray.append(string)
+        }
         if (foundEntry && foundSeverity) {
             severitiesArray.append(string)
         }
+    }
+    
+    // MARK: Segue to Alert Details
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as? AlertDetailsViewController
+        let index = ((sender as! IndexPath) as NSIndexPath).row
+        destination?.stateName = stateName
+        destination?.alertURL = alertsURLString
+        destination?.eventId = idsArray[index]
+        destination?.eventSummary = summariesArray[index]
+        destination?.eventName = eventsArray[index]
+        destination?.effective = effectivesArray[index]
+        destination?.certainty = certaintyArray[index]
+        destination?.expires = expiresArray[index]
+        navigationItem.title = nil
     }
 
 }
